@@ -9,7 +9,11 @@ var Socket = require('./lib/socket'),
  * @param {Function} [connectionListener]
  */
 function createServer (options, connectionListener) {
+    var server = new Server(options);
 
+    if (connectionListener) server.on('connection', connectionListener);
+
+    return server;
 }
 
 module.exports = {
