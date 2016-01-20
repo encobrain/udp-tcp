@@ -84,7 +84,9 @@ socket.write(buffer, [encoding], [doneListener]);
 
 // internal usage
 
-socket._data(buffer);
+socket._data(buffer); // to socket
+
+socket.on('_write', function(bufer, doneListener){}); // from socket
 
 
 
