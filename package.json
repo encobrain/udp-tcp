@@ -1,9 +1,21 @@
 {
   "name": "udp-tcp",
-  "version": "0.0.1",
+  "version": "0.0.2",
 
   "autor": {
     "name": "Igor Sosyura",
     "email": "encobrain@gmail.com"
-  }
+  },
+
+  "keywords": ["udp","tcp","logic","server","socket"],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/encobrain/udp-tcp.git"
+  },
+
+  "bugs": "https://github.com/encobrain/udp-tcp/issues",
+  "engines": {"node":">=0.10"},
+
+  "license": "MIT"
 }
